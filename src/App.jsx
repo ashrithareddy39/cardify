@@ -88,7 +88,8 @@ function App() {
           <div className="quiz-header">
             <div>
               <div className="header-badge">AI Powered</div>
-              <h1>Flashcard Generator</h1>
+              <h1>Cardify</h1>
+              <p className="quiz-subtitle">Flashcard Generator</p>
             </div>
             <button className="btn-reset" onClick={handleReset}>Start Over</button>
           </div>
@@ -125,7 +126,8 @@ function App() {
       <div className="card">
         <div className="header">
           <div className="header-badge">AI Powered</div>
-          <h1>Flashcard Generator</h1>
+          <h1>Cardify</h1>
+          <p className="app-subtitle">Flashcard Generator</p>
           <p className="subtitle">Paste your notes or upload a PDF and get study-ready flashcards in seconds</p>
         </div>
 
@@ -151,8 +153,7 @@ function App() {
             ) : (
               <>
                 <div className="upload-icon-circle">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#667eea" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0f1f3d" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                     <polyline points="17 8 12 3 7 8"/>
                     <line x1="12" y1="3" x2="12" y2="15"/>
                   </svg>
